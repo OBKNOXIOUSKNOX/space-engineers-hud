@@ -1,0 +1,19 @@
+{
+  "name": "space-engineers-hud",
+  "version": "1.0.0",
+  "description": "Read me file created",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OBKNOXIOUSKNOX/space-engineers-hud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OBKNOXIOUSKNOX/space-engineers-hud/issues"
+  },
+  "homepage": "https://github.com/OBKNOXIOUSKNOX/space-engineers-hud#readme"
+}
