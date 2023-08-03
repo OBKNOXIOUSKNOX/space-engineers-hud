@@ -1,16 +1,17 @@
 import React from 'react';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+// import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Display from './Display';
 import './App.css';
 
-const router = createBrowserRouter([{ path: '/', element: <Display /> }]);
+// Hiding React.Router until further notice
+// const router = createBrowserRouter([{ path: '/', element: <Display /> }]);
 
 function App() {
   return (
     <div className="App">
       <section id="background-image">
         <div id="parent-div">
-          <RouterProvider router={router} />
+          <Display/>
         </div>
       </section>
     </div>
