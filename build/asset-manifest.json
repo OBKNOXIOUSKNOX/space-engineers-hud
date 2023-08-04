@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/space-engineers-hud/static/css/main.5d12bfb4.css",
-    "main.js": "/space-engineers-hud/static/js/main.7a1b3e1f.js",
+    "main.js": "/space-engineers-hud/static/js/main.23863201.js",
     "static/js/787.50114260.chunk.js": "/space-engineers-hud/static/js/787.50114260.chunk.js",
     "static/media/led-screen.jpg": "/space-engineers-hud/static/media/led-screen.d2d4a7d2717a5239f75f.jpg",
     "index.html": "/space-engineers-hud/index.html",
     "main.5d12bfb4.css.map": "/space-engineers-hud/static/css/main.5d12bfb4.css.map",
-    "main.7a1b3e1f.js.map": "/space-engineers-hud/static/js/main.7a1b3e1f.js.map",
+    "main.23863201.js.map": "/space-engineers-hud/static/js/main.23863201.js.map",
     "787.50114260.chunk.js.map": "/space-engineers-hud/static/js/787.50114260.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d12bfb4.css",
-    "static/js/main.7a1b3e1f.js"
+    "static/js/main.23863201.js"
   ]
 }
