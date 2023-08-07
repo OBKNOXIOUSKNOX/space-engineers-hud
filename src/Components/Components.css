@@ -1,0 +1,101 @@
+.block-style {
+  display: flex;
+  flex-direction: row;
+  height: 35rem;
+  margin: 0 auto;
+  padding: auto;
+}
+.block-style-inventory {
+  display: flex;
+  flex-direction: row;
+  height: 35rem;
+  margin: 0 auto;
+  padding: auto;
+
+}
+#header {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: auto;
+    padding: 1rem 2rem;
+  }
+  .header-tab {
+    background-color: rgba(43, 64, 90, 0.8);
+    padding: 0.25rem 2.4rem;
+    margin: auto;
+    flex-grow: 1;
+    text-align: center;
+    /* border-width: 3px; */
+    border-color: aliceblue;
+    border: 1rem;
+  }
+  .header-tab:hover {
+    background-color: rgba(36, 54, 78, 0.8);
+    cursor: pointer;
+  }
+
+  #block-list {
+    width: 20%;
+    height: 80%;
+    background-color: rgba(54, 74, 99, 0.8);
+    overflow-y: auto;
+    margin: auto 2rem;
+    /* display: flex; */
+  }
+  #block-list-inventory {
+    width: 40%;
+    height: 80%;
+    background-color: rgba(54, 74, 99, 0.8);
+    overflow-y: auto;
+    margin: auto 2rem;
+
+
+  }
+  #ul {
+    padding: 0;
+    margin: 0;
+    /* display: block; */
+  }
+  #block {
+    border: 8px;
+    border-color: black;
+    padding: 0.2rem;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  #block:hover {
+    background-color: rgb(37, 55, 83);
+    cursor: pointer;
+  }
+
+  hr {
+  width: 94%;
+  opacity: 60%;
+}
+
+#card-header {
+  background-color: rgb(23, 31, 43);
+  margin: 0;
+  /* padding: 60px auto; */
+  text-align: center;
+  /* display: block; */
+}
+
+#inventory-buttons {
+  width: 1rem;
+  height: 1rem;
+  display: block;
+  padding: .5rem;
+}
+
+#flexy {
+  display: flex;
+  height: 80%;
+}
+
+.button-list {
+  text-align: center;
+}
