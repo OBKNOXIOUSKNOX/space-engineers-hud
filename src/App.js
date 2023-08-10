@@ -1,6 +1,7 @@
-import React from 'react';
 // import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import React from 'react';
 import Display from './Display';
+import Tester from './Tester';
 import './App.css';
 
 // Hiding React.Router until further notice
@@ -11,7 +12,8 @@ function App() {
     <div className="App">
       <section id="background-image">
         <div id="parent-div">
-          <Display/>
+          <Display />
+          <Tester />
         </div>
       </section>
     </div>
