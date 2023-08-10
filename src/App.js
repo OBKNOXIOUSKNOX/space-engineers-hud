@@ -14,7 +14,6 @@ function App() {
         <div id="parent-div">
           <Display />
           <Tester />
-          <h1>Hello There</h1>
         </div>
       </section>
     </div>
