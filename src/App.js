@@ -14,6 +14,7 @@ function App() {
         <div id="parent-div">
           <Display />
           <Tester />
+          <h1>Tested</h1>
         </div>
       </section>
     </div>
