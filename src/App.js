@@ -14,11 +14,7 @@ function App() {
         <div id="parent-div">
           <Display />
           <Tester />
-<<<<<<< HEAD
           <h1>Tested</h1>
-=======
-          <h1>Hello There</h1>
->>>>>>> parent of 99f0adf0 (Updates)
         </div>
       </section>
     </div>
