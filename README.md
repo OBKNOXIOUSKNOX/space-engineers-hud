@@ -1,3 +1,5 @@
 Read me file created
 
-First step for this project is to transfer all current code on desktop into github
+Site has been hosted on GitHub Pages!
+You can view it by this link
+https://obknoxiousknox.github.io/space-engineers-hud/
