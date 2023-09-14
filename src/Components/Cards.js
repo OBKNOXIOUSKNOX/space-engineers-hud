@@ -41,7 +41,6 @@ function Cards({ selectedMenu }) {
   return (
     <React.Fragment>
       {componentToShow}
-      <p>Talk to me Mark</p>
     </React.Fragment>
   );
 }
