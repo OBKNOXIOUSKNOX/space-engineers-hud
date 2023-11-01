@@ -3,7 +3,7 @@ import '../Components.css';
 
 function Factions() {
   return (
-    <div class="block-style">
+    <div className="block-style">
       <h1>Factions</h1>
     </div>
   );

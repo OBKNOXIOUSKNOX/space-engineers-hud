@@ -1,22 +1,15 @@
 import React from 'react';
-import '../Components.css';
-import InventoryButtons from './InventoryButtons'
+// import '../Components.css';
+import './InventoryEls/Inventory.css'
+import InventoryButtons from './InventoryEls/InventoryButtons'
+import InventoryPanel from './InventoryEls/InventoryPanel';
 
 function Inventory() {
   return (
-    <div class="block-style-inventory">
-      <div id="block-list-inventory">
-        <ul id="ul">
-          <p>innnn</p>
-          <p>This will contain all skills</p>
-        </ul>
-      </div>
+    <div className="block-style-inventory">
+      <InventoryPanel para='innnn' header='JavaScript built Inventory Management System in progress'/>
       <InventoryButtons />
-      <div id="block-list-inventory">
-        <ul id="ul">
-          <p>innnn</p>
-        </ul>
-      </div>
+      <InventoryPanel para='innnn' header='This is Inventory Panel'/>
     </div>
   );
 }

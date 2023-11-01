@@ -1,0 +1,54 @@
+.block-style-inventory {
+  display: flex;
+  flex-direction: row;
+  height: 35rem;
+  /* margin: 0 auto; */
+  padding: auto;
+  /* color: rgb(107, 119, 119); */
+}
+#block-list-inventory {
+  width: 100%;
+  height: 90%;
+  background-color: rgba(28, 42, 60, 0.8);
+  overflow-y: auto;
+}
+#inventory-panel {
+  width: 45%;
+  height: 90%;
+  /* background-color: rgba(54, 74, 99, 0.8); */
+  overflow-y: auto;
+  margin: 0 0.5rem;
+  overflow-x: hidden;
+}
+
+.inventory-icon {
+  color: rgb(146, 152, 152);
+  padding: 8px;
+}
+
+#inventory-select-buttons {
+  background-color: rgba(28, 42, 60, 0.8);
+}
+#inventory-select-buttons:hover {
+  background-color: rgba(36, 54, 78, 0.8);
+  cursor: pointer;
+}
+#inventory-buttons {
+  width: 5%;
+  height: 100%;
+  padding: 3% 0;
+  margin: auto 0;
+}
+
+#inventory-button {
+  padding: 2rem 0;
+  width: 100%;
+  margin: 13% 0;
+  height: 18%;
+  background-color: rgba(28, 42, 60, 0.8);
+  color: rgb(146, 152, 152);
+}
+#inventory-button:hover {
+  background-color: rgba(36, 54, 78, 0.8);
+  cursor: pointer;
+}

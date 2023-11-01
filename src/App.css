@@ -1,7 +1,3 @@
-/* .App { */
-/* text-align: center; */
-/* } */
-
 body {
   align-items: center;
   margin: 0;
@@ -9,6 +5,7 @@ body {
   color: rgb(146, 152, 152);
   font-family: 'Nova Square', sans-serif;
   user-select: none;
+  overflow-y: hidden;
 }
 
 #background-image {
@@ -25,15 +22,9 @@ body {
   align-items: center;
 }
 
-#opened-display {
-  width: 70%;
-  height: 90%;
-  background-color: rgba(42, 58, 78, 0.8);
-  border-radius: 8px;
-  border: 0.05rem;
-  border-style: solid;
-  border-color: rgba(116, 137, 163, 0.5);
-}
+/* App.js ↑ */
+/* Display.js ↓ */
+
 #display-button {
   background-color: rgba(7, 246, 246, 0.2);
   border: 0;
@@ -46,4 +37,8 @@ body {
   font-family: 'Nova Square', sans-serif;
   color: rgb(107, 119, 119);
   border-radius: 8px;
+}
+
+button {
+  border: none;
 }
